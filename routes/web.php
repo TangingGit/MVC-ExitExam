@@ -14,4 +14,4 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::post('/calculate', 'calculaterController@sum');
+Route::post('/emplist', 'EmplistController@index');
